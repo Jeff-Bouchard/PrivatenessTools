@@ -1,7 +1,7 @@
 # PrivatenessTools
 Privateness console tools
 
-## Instalation
+## Installation
 `git clone https://github.com/Alex014/PrivatenessTools`
 `pip install requests pynacl pycryptodome validators lxml`
 
@@ -71,8 +71,8 @@ Privateness console tools
  save <encrypted keyfile>
 ### Restore local keyfiles from encrypted keyfile
  restore <encrypted keyfile>
-### Eraise keyfile or all local keyfiles (fill with 0)
- eraise [encrypted keyfile]
+### Erase keyfile or all local keyfiles (fill with 0)
+ erase [encrypted keyfile]
 ```
 ## Node management
 ### nodes-update.py
@@ -81,7 +81,7 @@ Privateness console tools
 ### DESCRIPTION:
   Service node list update from blockchain or remote node
 ### USAGE:
-#### Update from blockchain (if RPC connection settings olready exist)
+#### Update from blockchain (if RPC connection settings already exist)
  python nodes-update.py blockchain
  python nodes-update.py blk
 #### Update from blockchain (connect to Emercoin RPC and save connection settings)
